@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>초록 화분</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -11,20 +12,21 @@
         <h1 class="logo">🌿 초록 화분</h1>
         <nav>
             <ul class="menu">
-                <li><a href="#">이달의 화분</a></li>
-                <li><a href="#">키우는 법</a></li>
-                <li><a href="#">매장 둘러보기</a></li>
-                <li><a href="#">소식 받기</a></li>
+                <li><a href="#plants">이달의 화분</a></li>
+                <li><a href="#card">키우는 법</a></li>
+                <li><a href="#shop">매장 둘러보기</a></li>
+                <li><a href="#news">소식 받기</a></li>
             </ul>
         </nav>
     </header>
+
     <section class="hero">
         <p class="sub">green pot shop</p>
         <h2>책상 위에 작은 숲을 들여요</h2>
         <p>처음 키워도 괜찮아요. 물 주는 날까지 알려 드려요.</p>
         <div class="btn-wrap">
-            <a href="#" class="btn">화분 구경하기</a>
-            <a href="#" class="btnline">키우는법 보기</a>
+            <a href="#plants" class="btn">화분 구경하기</a>
+            <a href="#card" class="btnline">키우는 법 보기</a>
         </div>
     </section>
 
@@ -36,31 +38,34 @@
                     <p class="icon">🌵</p>
                     <h3>미니 선인장</h3>
                     <p>한 달에 한 번만 물을 주면 돼요.</p>
-                    <p class="price">
+                    <div class="price">
                         <strong>8,000원</strong>
-                        <button>담기</button>
-                    </p>
+                        <button type="button">담기</button>
+                    </div>
                 </article>
+
                 <article class="card">
                     <p class="icon">🪴</p>
                     <h3>몬스테라</h3>
                     <p>잎이 크고 시원해서 거실에 두기 좋아요. 새 잎이 날 때마다 구멍이 하나씩 늘어나는 걸 보는 재미가 있어요.</p>
-                    <p class="price">
+                    <div class="price">
                         <strong>25,000원</strong>
-                        <button>담기</button>
-                    </p>
+                        <button type="button">담기</button>
+                    </div>
                 </article>
+
                 <article class="card">
                     <p class="icon">🌱</p>
                     <h3>스투키</h3>
                     <p>밤에도 공기를 맑게 해 줘서 침실에 딱이에요.</p>
-                    <p class="price">
+                    <div class="price">
                         <strong>15,000원</strong>
-                        <button>담기</button>
-                    </p>
+                        <button type="button">담기</button>
+                    </div>
                 </article>
             </div>
         </section>
+
         <section id="card">
             <h2>키우는 법 3단계</h2>
             <ol class="step">
@@ -119,22 +124,29 @@
                 </li>
                 <li>
                     <p class="emoji">🧑‍🌾</p>
-                    <h3>원데이 클래스/h3>
+                    <h3>원데이 클래스</h3>
                 </li>
             </ul>
         </section>
-        <sectioin class="news">
+
+        <section id="news" class="news">
             <h2>새 소식 받기</h2>
             <form>
                 <label for="email">이메일</label>
-                <input type="email" name="email" id="email">
-                <select name="">
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="green@pot.com"
+                    required
+                >
+                <select name="period">
                     <option value="weeks">매주</option>
                     <option value="monthly">매달</option>
                 </select>
                 <button type="submit">구독하기</button>
             </form>
-        </sectioin>
+        </section>
     </main>
 
     <footer>
