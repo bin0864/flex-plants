@@ -29,6 +29,7 @@ header {
     align-items: center;
     flex-wrap: wrap;
     gap: 16px;
+    z-index: 10;
 }
 
 .logo {
@@ -376,7 +377,7 @@ footer p {
     background-color: #193f32cb;
     color: white;
     font-weight: bold;
-    right: 100px;
+    right: 300px;
     bottom: 400px;
     text-align: center;
     width: 100px;
