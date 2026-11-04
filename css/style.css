@@ -142,6 +142,7 @@ main section h2 {
 
 .card:hover {
     border: 2px solid #2d6a50;
+    background-color: #f5fbf4;
 }
 
 .icon {
@@ -190,7 +191,7 @@ main section h2 {
 
 .b1{
     right: 1000px;
-    background-color: goldenrod;
+    background-color: rgb(218, 165, 32);
     color: white;
 }
 
