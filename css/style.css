@@ -288,6 +288,10 @@ main section h2 {
     font-size: 36px;
 }
 
+.gallery:nth-child(2) .emoji{
+    font-size: 40px;
+}
+
 .gallery li:first-child .emoji {
     font-size: 56px;
 }
