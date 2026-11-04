@@ -20,6 +20,8 @@ a {
 }
 
 header {
+    position: sticky;
+    top: 0px;
     background-color: #2d6a50;
     padding: 14px 40px;
     display: flex;
@@ -177,6 +179,31 @@ main section h2 {
     color: white;
     padding: 7px 14px;
     cursor: pointer;
+}
+
+.badge{
+    position: absolute;
+    padding: 5px 10px;
+    border-radius: 5px;
+    top: 425px;
+}
+
+.b1{
+    right: 1000px;
+    background-color: goldenrod;
+    color: white;
+}
+
+.b2{
+    right: 655px;
+    background-color: #b9b9b9;
+    color: white;
+}
+
+.b3{
+    right: 315px;
+    background-color: #9c4411;
+    color: white;
 }
 
 .step {
@@ -340,4 +367,18 @@ footer p {
 .sns li a {
     color: white;
     font-size: 13px;
+}
+
+.top{
+    position: fixed;
+    background-color: #193f32cb;
+    color: white;
+    font-weight: bold;
+    right: 50px;
+    bottom: 100px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    align-content: center;
 }
