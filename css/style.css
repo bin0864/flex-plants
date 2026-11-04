@@ -190,19 +190,16 @@ main section h2 {
 }
 
 .b1{
-    right: 1000px;
     background-color: rgb(218, 165, 32);
     color: white;
 }
 
 .b2{
-    right: 655px;
     background-color: #b9b9b9;
     color: white;
 }
 
 .b3{
-    right: 315px;
     background-color: #9c4411;
     color: white;
 }
@@ -375,8 +372,8 @@ footer p {
     background-color: #193f32cb;
     color: white;
     font-weight: bold;
-    right: 50px;
-    bottom: 100px;
+    right: 100px;
+    bottom: 400px;
     text-align: center;
     width: 100px;
     height: 100px;
