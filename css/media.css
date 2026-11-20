@@ -1,5 +1,9 @@
 
 @media (max-width: 767px) {
+    body {
+        padding-top: 134px;
+    }
+
     header {
         height: 134px;
         padding: 12px 4%;
@@ -29,8 +33,6 @@
 
     .hero {
         width: 92%;
-        height: 50vh;
-        min-height: 300px;
         padding: 25px 15px;
     }
 
